@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AdminRights">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@mipmap/admin">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btnadmindata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+
+            android:onClick="bAdmindata"
+
+            android:padding="20dp"
+            android:text="Admin Record"
+            android:backgroundTint="#00f0f0"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/doctoricon">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btndoctordata"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="2"
+        android:onClick="bDoctordata"
+        android:padding="20dp"
+        android:text="Doctors"
+        android:backgroundTint="#00f0f0"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/adddocicon">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btnAdddoctor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+
+        android:onClick="bAddDoctor"
+        android:padding="20dp"
+        android:text=" Add Doctor"
+        android:backgroundTint="#00f0f0"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/patientsee">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btnPatients"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:onClick="bPatients"
+        android:padding="20dp"
+        android:text="Patients"
+        android:backgroundTint="#00f0f0"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/addpaticon">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btnPatAppoint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="2"
+        android:onClick="bpatientAppoint"
+        android:padding="20dp"
+        android:text=" Add Patient"
+        android:backgroundTint="#00f0f0"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
+
+</LinearLayout>
